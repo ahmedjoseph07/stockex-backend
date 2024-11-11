@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(cors(
     {
-        origin: ["http://localhost:5173","http://localhost:5174"],
+        origin: ["https://stockex-clientsite.vercel.app","http://localhost:5174"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     }
